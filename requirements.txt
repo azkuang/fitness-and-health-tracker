@@ -4,3 +4,5 @@ google-auth-oauthlib
 python-dotenv  # If you're using environment variables from a .env file
 pandas  # Optional, for data processing and analysis
 matplotlib  # Optional, for data visualization
+#pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+#pip install -r requirements.txt
