@@ -6,8 +6,6 @@ const Navigation = () => {
 	return (
 		<nav className={styles.navbar}>
 			<Link href='/'>Health and Fitness Tracker</Link>
-			<a href='/input'>Input Data</a>
-			<a href='/vis'>Visuals</a>
 		</nav>
 	);
 };

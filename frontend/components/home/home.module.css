@@ -1,0 +1,45 @@
+.imageTextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin: auto;
+    width: 100%;
+    height: 70px;
+    max-width: none;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rbg(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.inputContainer {
+    margin-top: 80px;
+    margin-left: 20px;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 30%;
+    height: 250px;
+    max-width: none;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rbg(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.inputText {
+    font-size: 20px;
+    padding: 20px;
+    line-height: 3;
+}
+
+.body {
+    flex-grow: 1;
+    padding: 40px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
