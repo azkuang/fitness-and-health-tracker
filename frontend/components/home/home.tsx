@@ -22,15 +22,14 @@ export default function About() {
                     <h1>Input Data</h1>
                 </div>
                 <div className={styles.inputText}> 
-                    <ul>
-                        <li>Exercise/Activity:</li>
-                        <li>Duration:</li>
-                        <li>Calories Burned:</li>
-                    </ul>
+                    <input type="text" placeholder="Exercise/Activity" className="exercise" />
+                    <input type="number" placeholder="Duration(min)" className="duration" />
+                    <input type="number" placeholder="Calories Burned" className="calories" />
+                    <button type="submit" className="submit">Submit</button>
                 </div>
             </div>
             <div className={styles.visualContainer}>
-
+                
             </div>
         </section>
     );

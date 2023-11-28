@@ -14,9 +14,9 @@
 
 .inputContainer {
     margin-top: 80px;
-    margin-left: 20px;
+    margin-left: 40%;
     background-color: rgba(128, 128, 128, 0.5);
-    width: 30%;
+    width: 20%;
     height: 250px;
     max-width: none;
     box-sizing: border-box;
@@ -26,9 +26,29 @@
 }
 
 .inputText {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     font-size: 20px;
     padding: 20px;
     line-height: 3;
+}
+
+.exercise {
+    flex: 1 0 10rem;
+}
+
+.duration {
+    flex: 1 0 10rem;
+}
+
+.calories {
+    flex: 1 0 10rem;
+}
+
+.submit {
+    flex: 1 0 5rem;
+    background-color: #c0b9a5;
 }
 
 .body {
